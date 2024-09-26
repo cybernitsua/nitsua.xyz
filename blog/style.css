@@ -75,3 +75,24 @@ footer {
     background-color: #f4f4f4;
     border-top: 1px solid #eaeaea;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        width: 100%;
+        padding: 0;
+    }
+}
+
